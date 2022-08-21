@@ -12,7 +12,10 @@ Linear Regression,
 Decision Trees and 
 Random Forest Algorithms. 
 
+Visualizations showed us how our model’s predictions were close to Test Data. It was evident that decision tree and Random forest were performing well. When we did analysis on model evaluation result with PCA we observed that decision tree model and random forest model were good performers.
+
 ## Conclusions
-Visualizations showed us how our model’s predictions were close to Test Data. It was evident that decision tree and Random forest were performing well. When we did analysis on model evaluation result with PCA we observed that decision tree model and random forest model were good performers. As, Random Forest was providing us reduced RMSLE, we can say that it’s a model to be opted for. We got good fit score for decision tree and random forest i.e. close to 1.0. When we did analysis on model evaluation result without PCA we observed that our decision tree with GridsearchCV model were good performers as it was providing us reduced RMSLE. We were getting good fit score for decision tree with GridsearchCV i.e. close to 1.0. R2-score must be between 0 and 1, towards 1 considered as good fit. 
+Random Forest was providing us reduced RMSLE, we can say that it’s a model to be opted for. We got good fit score for decision tree and random forest i.e. close to 1.0. When we did analysis on model evaluation result without PCA we observed that our decision tree with GridsearchCV model were good performers as it was providing us reduced RMSLE. 
+We were getting good fit score for decision tree with GridsearchCV i.e. close to 1.0. R2-score must be between 0 and 1, towards 1 considered as good fit. 
 Taxi giants such as UBER and OLA can use the same data for analyzing the trends that vary throughout the day in the city. This not only helps in better transport analysis but also helps the concerned authorities in planning traffic control and monitoring.
 
